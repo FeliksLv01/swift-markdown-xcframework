@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
   s.author = { 'FeliksLv01' => 'felikslv@163.com' }
   s.source = {
     :http => "https://github.com/FeliksLv01/swift-markdown-xcframework/releases/download/swift-markdown-#{s.version}/Markdown.xcframework.zip",
-    :sha256 => '6cced53923415a6a73acbae503bb521021db7174fd5b5c102e2e26a58bd891bb'
+    :sha256 => '9eda1d78bad380856aa966d68e4cae89a461c619e3e0e2266cb2effc4b77d736'
   }
   s.ios.deployment_target = '15.0'
   s.swift_versions = ['5.9', '6.0']

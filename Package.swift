@@ -12,7 +12,7 @@ let package = Package(
         .binaryTarget(
             name: "Markdown",
             url: "https://github.com/FeliksLv01/swift-markdown-xcframework/releases/download/swift-markdown-0.8.0-patch.1/Markdown.xcframework.zip",
-            checksum: "6cced53923415a6a73acbae503bb521021db7174fd5b5c102e2e26a58bd891bb"
+            checksum: "9eda1d78bad380856aa966d68e4cae89a461c619e3e0e2266cb2effc4b77d736"
         )
     ]
 )
