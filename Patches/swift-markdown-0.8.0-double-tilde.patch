@@ -1,0 +1,8 @@
+diff --git a/Sources/Markdown/Parser/CommonMarkConverter.swift b/Sources/Markdown/Parser/CommonMarkConverter.swift
+index 510bbfd..06cf283 100644
+--- a/Sources/Markdown/Parser/CommonMarkConverter.swift
++++ b/Sources/Markdown/Parser/CommonMarkConverter.swift
+@@ -614,2 +614,2 @@ struct MarkupParser {
+-        var cmarkOptions = CMARK_OPT_TABLE_SPANS
++        var cmarkOptions = CMARK_OPT_TABLE_SPANS | CMARK_OPT_STRIKETHROUGH_DOUBLE_TILDE
+         if !options.contains(.disableSmartOpts) {

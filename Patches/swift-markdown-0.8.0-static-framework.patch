@@ -1,0 +1,12 @@
+diff --git a/Package.swift b/Package.swift
+index 7eb64cc..42d80e3 100644
+--- a/Package.swift
++++ b/Package.swift
+@@ -19,6 +19,7 @@ let package = Package(
+     products: [
+         .library(
+             name: "Markdown",
++            type: .dynamic,
+             targets: ["Markdown"]),
+     ],
+     targets: [

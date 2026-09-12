@@ -1,0 +1,9 @@
+upstream:
+  repository: https://github.com/swiftlang/swift-markdown.git
+  tag: 0.8.0
+  revision: 3c6f9523da3a1ec2fd829673e472d95b8097a3b8
+patches:
+  - file: swift-markdown-0.8.0-double-tilde.patch
+    purpose: Require two tildes for strikethrough.
+  - file: swift-markdown-0.8.0-static-framework.patch
+    purpose: Materialize the package product as a framework during binary builds.

@@ -1,0 +1,8 @@
+SwiftMarkdownBinary packages a modified binary build of swift-markdown.
+
+swift-markdown
+Copyright (c) 2021 Apple Inc. and the Swift project authors
+Licensed under Apache License 2.0 with Runtime Library Exception.
+
+Modification: CMARK_OPT_STRIKETHROUGH_DOUBLE_TILDE is enabled during parsing.
+The source patch is available in Patches/swift-markdown-0.8.0-double-tilde.patch.

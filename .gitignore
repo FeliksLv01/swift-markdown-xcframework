@@ -1,0 +1,8 @@
+.build/
+Markdown.xcframework
+Markdown.xcframework.zip
+Package.resolved
+Pods/
+*.xcworkspace/
+*.xcodeproj/xcuserdata/
+.DS_Store

@@ -1,0 +1,3 @@
+[submodule "Vendor/swift-markdown"]
+	path = Vendor/swift-markdown
+	url = https://github.com/swiftlang/swift-markdown.git
